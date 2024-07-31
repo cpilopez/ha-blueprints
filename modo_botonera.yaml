@@ -2,8 +2,8 @@ blueprint:
   name: Mode-botonera
   description: Permet crear diferents modes per a botoneres
   domain: automation
-  source_url: https://github.com/home-assistant/core/blob/dev/homeassistant/components/automation/blueprints/motion_light.yaml
-  author: Home Assistant
+  source_url: https://github.com/cpilopez/ha-blueprints/blob/main/modo_botonera.yaml
+  author: cpilopez
   input:
     motion_entity:
       name: Motion Sensor
