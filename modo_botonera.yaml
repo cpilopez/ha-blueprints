@@ -30,9 +30,8 @@ blueprint:
     botonera_device:
       name: Botonera Styrbar a gestionar
       selector:
-        target:
-          device:
-            domain: binary_sensor
+        device:
+          integration: mqtt
 
 # If motion is detected within the delay,
 # we restart the script.
