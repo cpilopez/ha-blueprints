@@ -32,7 +32,7 @@ blueprint:
       selector:
         target:
           entity:
-            domain: button
+            domain: mqtt
 
 # If motion is detected within the delay,
 # we restart the script.
