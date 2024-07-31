@@ -6,7 +6,7 @@ blueprint:
   author: cpilopez
   input:
     motion_entity:
-      name: Motion Sensor
+      name: Sensor de moviment
       selector:
         entity:
           filter:
