@@ -27,6 +27,12 @@ blueprint:
           min: 0
           max: 3600
           unit_of_measurement: seconds
+    botonera_device:
+      name: Botonera a gestionar
+      selector:
+        target:
+          entity:
+            domain: button
 
 # If motion is detected within the delay,
 # we restart the script.
