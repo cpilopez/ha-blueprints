@@ -1,6 +1,6 @@
 blueprint:
-  name: Mode-botonera
-  description: Permet crear diferents modes per a botoneres
+  name: IKEA-Styrbar-Mode
+  description: Permet crear diferents modes per a la botonera Styrbar de IKEA (4 butons)
   domain: automation
   source_url: https://github.com/cpilopez/ha-blueprints/blob/main/modo_botonera.yaml
   author: cpilopez
@@ -28,12 +28,11 @@ blueprint:
           max: 3600
           unit_of_measurement: seconds
     botonera_device:
-      name: Botonera a gestionar
+      name: Botonera Styrbar a gestionar
       selector:
         target:
-          entity:
-            device_class: binary_sensor
-            domain: button
+          device:
+            domain: binary_sensor
 
 # If motion is detected within the delay,
 # we restart the script.
