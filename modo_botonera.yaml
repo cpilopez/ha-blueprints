@@ -32,6 +32,7 @@ blueprint:
       selector:
         target:
           entity:
+            device_class: binary_sensor
             domain: button
 
 # If motion is detected within the delay,
